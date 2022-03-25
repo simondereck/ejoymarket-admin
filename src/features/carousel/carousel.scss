@@ -1,0 +1,26 @@
+.carousel-config{
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  input{
+    max-width: 200px;;
+  }
+}
+
+.create-carousel-form{
+  padding:10%;
+  background-color: white;
+}
+.carousel-detail{
+  .carousel-detail-item{
+    margin: 10px;
+    .carousel-detail-title{
+      display: inline-block;
+      width: 100px;
+    }
+  }
+  .button-groups{
+    text-align: right;
+  }
+}

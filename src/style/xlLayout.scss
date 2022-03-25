@@ -1,0 +1,42 @@
+.double-items-layout{
+  display: flex;
+  .double-items-item{
+    padding: 40px;
+    width: 50%;
+  }
+
+  .double-items-long{
+    padding: 40px;
+    width: 65%;
+  }
+
+  .image-items{
+    overflow: scroll;
+  }
+
+  .double-items-short{
+    padding: 40px;
+    width: 35%;
+  }
+}
+
+
+.single-item-layout{
+  padding: 40px;
+  width: 50%;
+}
+.xlSwitch{
+  float:left;
+}
+.xlSwitch[value=true],.xlSwitch[aria-checked=true]{
+  background-color: #13A6A9;
+}
+
+.xlTextArea{
+  min-height: 280px;
+  background-color: whitesmoke;
+}
+
+.submit-button{
+  background-color: #13A6A9;
+}

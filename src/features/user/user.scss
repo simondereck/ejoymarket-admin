@@ -1,0 +1,26 @@
+.pagination-bar{
+  background-color: white;
+  padding: 10px;
+  .pagination-bar-items{
+    width:200px ;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.user-detail{
+  //background-color: blue;
+  padding: 20px;
+  margin: 5px;
+  tr{
+    padding: 10px;
+  }
+  th{
+    min-width: 120px;
+    text-align: left;
+  }
+  td{
+    margin-left: 20px;
+  }
+}

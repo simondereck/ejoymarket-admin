@@ -1,0 +1,23 @@
+export interface ArticleData{
+    id: number,
+    title: string,
+    category: number,
+    subCategory: number,
+    description: string,
+    images: Array<any>,
+    postType: number,
+    valuable: boolean,
+    lan: number,
+    detail: string,
+    uid: number,
+    contact: string,
+    contactName: string,
+    period: number,
+    country: number,
+    city: number,
+    lat: number,
+    lng: number,
+    ctime: string,
+    utime: string,
+
+}

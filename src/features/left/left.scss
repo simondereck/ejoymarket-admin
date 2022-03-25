@@ -1,0 +1,38 @@
+.xLtheme{
+  display: flex;
+}
+
+.xLtheme-pageHeader{
+  background-color: #13A6A9;
+  .ant-page-header-heading-title{
+    color: white;
+  }
+}
+
+.site-layout-background{
+  height: 100vh;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.site-layout-background::-webkit-scrollbar {
+  display: none;
+}
+
+.user-head{
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.logout-button{
+  background-color: #13A6A9;
+  margin: 12px;
+  border-radius: 20px;
+  color: white;
+}
+
+.menu-active{
+  background-color: #13A6A9;
+  color: white;
+}

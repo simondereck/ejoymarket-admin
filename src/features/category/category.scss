@@ -1,0 +1,53 @@
+@import '../../style/xlLayout';
+
+.create-category-form{
+  padding:10%;
+  background-color: white;
+}
+
+
+.category-config-create{
+  margin: 20px;
+  background-color: white;
+  min-height: 400px;
+  display: flex;
+  .category-plugins{
+    background-color: #13A6A9;
+    color: white;
+    min-height: 400px;
+    height: 100%;
+    width: 160px;
+    .plugin-item{
+      padding: 10px;
+      width: 100%;
+      display: block;
+    }
+    .plugin-item:hover{
+      background-color: rgba(0,0,0,0.3);
+      cursor: pointer;
+    }
+  }
+  .category-content{
+    width: 100%;
+    height: 100%;
+    .plugin-item{
+      margin: 10px;
+      padding: 10px 20px 10px;
+      background-color: wheat;
+      text-align: left;
+      .plugin-note{
+        justify-content: space-around;
+        color: gray;
+        display: flex;
+      }
+    }
+    .plugin-item-close{
+      text-align: right;
+    }
+    .category-config-submit-form{
+      margin: 10px;
+      padding: 10px 20px 10px;
+    }
+  }
+
+}
